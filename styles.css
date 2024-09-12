@@ -1,1 +1,32 @@
+body {
+    font-family: Helvetica;
+    background-color: rgb(234, 255, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#inloggheader {
+    padding: 20px;
+    background-color: rgb(208, 231, 218);
+    border-radius: 2px;
+    text-align: center;
+}
 
+#inloggfel {
+    color: red;
+    display: none;
+}
+
+#lyckadinloggning {
+    display: none;
+    text-align: center;
+}
+
+#loggautknapp {
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: large;
+    margin-top: 40px;
+}
